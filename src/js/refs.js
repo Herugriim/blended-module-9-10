@@ -1,3 +1,9 @@
+
+export const refs = {
+
+  themeToggle: document.querySelector("#themeToggle"),
+};
+
 export const form = document.querySelector('.header-form');
 export const inputName = document.querySelector('[name="taskName"]');
 export const inputDiscription = document.querySelector(

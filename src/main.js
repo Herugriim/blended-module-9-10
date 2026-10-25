@@ -1,3 +1,11 @@
+
+import   './js/local-storage-api.js';
+import './js/markup-tasks.js';
+import './js/refs.js';
+import './js/render-tasks.js';
+import './js/tasks.js';
+import './js/theme-switcher.js';
+
 import { form, list } from './js/refs';
 import { createMarkup } from './js/render-tasks';
 
@@ -49,3 +57,4 @@ list.addEventListener('click', event => {
       <p>Текст</p>
   </li>
 */
+
